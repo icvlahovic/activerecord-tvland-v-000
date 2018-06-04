@@ -1,3 +1,3 @@
-def AddActorIDToCharacters < ActiveRecord[4.2]
+def AddActorIDToCharacters < ActiveRecord::Migration[4.2]
   add_column :characters, :actor_id, :integer
 end
